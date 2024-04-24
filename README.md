@@ -31,9 +31,18 @@ Solve Code
 ## Practicum - 1 C
 Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda pelajari dan bagaimana tampilannya saat ini?
 
-Jangan lupa push dengan pesan commit: "W07: Jawaban soal 3".
-
 Answer:
     In this practicum we try to use component level sections not manually. By changing the code a little, namely level + 1 in heading.tsx, the reason is because Sections tend to read information from the components above them, each Section can read the level from the Section above it, and pass level + 1 down automatically.
 Result Practicum :
 |![Screenshot](assets-report/07-jawaban-soal-1c.PNG)
+
+## Practicum - 2
+Capture hasilnya dan buatlah laporan di README.md. Tambahkan teks Nama dan NIM pada bagian komponen Post agar menunjukkan itu hasil kerja Anda!
+
+Answer:
+    In this practical we will try to insert as many components as possible between the components that provide the context and the components that use it by using divs in each Component file (../molecules/recentpost.tsx and ../organisms/allpost.tsx). The same Post component (with dotted boundaries) is given at two different levels of nesting in the Heading and Sections codes.
+Result Practicum :
+General practicum result.
+|![Screenshot](assets-report/07-jawaban-soal-2.PNG)
+Code after input Name and NIM.
+|![Screenshot](assets-report/07-jawaban-soal-2a.PNG)
