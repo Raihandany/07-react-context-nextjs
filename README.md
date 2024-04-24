@@ -26,4 +26,14 @@ Result Practicum :
 Default Error Code
 |![Screenshot](assets-report/07-jawaban-soal-1b.PNG)
 Solve Code
-|![Screenshot](assets-report/07-jawaban-soal-12b.PNG)
+|![Screenshot](assets-report/07-jawaban-soal-1b2.PNG)
+
+## Practicum - 1 C
+Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda pelajari dan bagaimana tampilannya saat ini?
+
+Jangan lupa push dengan pesan commit: "W07: Jawaban soal 3".
+
+Answer:
+    In this practicum we try to use component level sections not manually. By changing the code a little, namely level + 1 in heading.tsx, the reason is because Sections tend to read information from the components above them, each Section can read the level from the Section above it, and pass level + 1 down automatically.
+Result Practicum :
+|![Screenshot](assets-report/07-jawaban-soal-1c.PNG)
